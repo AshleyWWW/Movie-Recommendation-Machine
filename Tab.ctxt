@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tab
+comment0.text=\r\n\ Menu\ tabs\ that\ have\ labels.\ \r\n\ The\ purpose\ is\ to\ reduce\ the\ number\ of\ buttons\ on\ \r\n\ the\ screen\ at\ any\ one\ time.\ \r\n\ Contents\ of\ genImage(_backClr_)\ are\ from\ Mr\ Cohen's\ \r\n\ TextButton\ class.\ \r\n\ \r\n\ @author\ Ashley\ Wang\ \r\n\ @version\ April\ 2015\ ->\ Jan\ 2016\r\n
+comment1.params=t
+comment1.target=Tab(TextButton[])
+comment1.text=\r\n\ Constructor.\ \r\n\ Some\ code\ taken\ from\ Mr\ Cohen's\ TextButton\ class.\r\n\r\n\ @param\ \ items\ \ \ \ the\ items\ under\ this\ tab\r\n
+comment2.params=t\ text
+comment2.target=Tab(TextButton[],\ java.lang.String)
+comment2.text=\r\n\ Constructor.\ \r\n\ Some\ code\ taken\ from\ Mr\ Cohen's\ TextButton\ class.\r\n\r\n\ @param\ \ items\ \ \ \ the\ items\ under\ this\ tab\r\n\ @param\ text\ the\ text\ displayed\ on\ this\ button\r\n
+comment3.params=t\ text\ textSize
+comment3.target=Tab(TextButton[],\ java.lang.String,\ int)
+comment3.text=\r\n\ Constructor.\ \r\n\ Some\ code\ taken\ from\ Mr\ Cohen's\ TextButton\ class.\r\n\r\n\ @param\ \ items\ \ \ \ the\ items\ under\ this\ tab\r\n\ @param\ text\ the\ text\ displayed\ on\ this\ button\r\n\ @param\ textSize\ the\ text\ size\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ Tab\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment5.params=add
+comment5.target=void\ animate(boolean)
+comment5.text=\r\n\ Animates\ the\ menu\ items\r\n\r\n\ @param\ \ add\ \ a\ boolean\ -\ if\ true,\ is\ adding\ items\ to\ the\ screen.\ false\ if\ removing.\ \r\n
+comment6.params=backClr
+comment6.target=greenfoot.GreenfootImage\ genImage(java.awt.Color)
+comment6.text=\r\n\ Generates\ an\ image.\ \r\n\ From\ Mr\ Cohen's\ TextButton\ class.\ \r\n\r\n\ @return\ \ \ \ \ the\ GreenfootImage\ that\ was\ generated\r\n
+numComments=7

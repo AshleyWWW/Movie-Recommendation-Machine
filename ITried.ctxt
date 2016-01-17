@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ITried
+comment0.text=\n\ Write\ a\ description\ of\ class\ ITried\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=java.lang.String[][]\ uh()
+comment2.params=html
+comment2.target=java.lang.String\ title(java.lang.String)
+comment3.params=html
+comment3.target=java.lang.String\ iD(java.lang.String)
+comment4.params=title
+comment4.target=java.lang.String\ year(java.lang.String)
+comment5.params=html
+comment5.target=java.lang.String\ genre(java.lang.String)
+comment6.params=html
+comment6.target=java.lang.String\ people(java.lang.String)
+comment7.params=
+comment7.target=void\ uhh()
+comment8.params=n
+comment8.target=java.lang.String\ genNum(int)
+comment8.text=\n\ Make\ the\ number\ for\ tt___\n\n\ @param\ \ n\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ string\ version\n
+comment9.params=
+comment9.target=int[]\ randGen()
+numComments=10
