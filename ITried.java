@@ -20,12 +20,14 @@ import java.util.Random;
  */
 public class ITried extends Actor
 { 
+    private static int LIMIT = 20;
+    
     public static String[][] uh() throws IOException {
         // Make a URL to the web page
         String address, str= "http://www.imdb.com/title/tt";
-        String[][] movies = new String[10][5];
+        String[][] movies = new String[LIMIT][5];
         int numSet[] = randGen();
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < LIMIT; i++){
             address = str + numSet[i] + "/";
             try{ 
                 URL url = new URL(address);//"http://www.imdb.com/title/tt9999899/"
@@ -219,8 +221,8 @@ public class ITried extends Actor
 
     private static int[] randGen(){
         Random r = new Random();
-        int[] set = new int[10];
-        for (int i = 0; i < 10; i++){
+        int[] set = new int[LIMIT];
+        for (int i = 0; i < LIMIT; i++){
             set[i] = r.nextInt(3284102-1248103) + 1248103;
         }
         return set;
