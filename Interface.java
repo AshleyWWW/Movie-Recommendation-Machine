@@ -221,11 +221,19 @@ public class Interface extends World
                     //replace with Srishti's thing
                     try {
                         String[][] table = analyzeAll(ITried.uh());
+                        System.out.println("ID no.\tGenre(s)\tYear\tPeople\tName");
                         for (int i = 0; i < table.length; i++) {
-                            for (int j = 0; j < table[i].length; j++) {
-                                System.out.print(table[i][j] + " ");
+                            if (table[i][0] != null) {
+                                for (int j = 0; j < table[i].length; j++) {
+                                    while (table[i][j].length() > 1 && table[i][j].charAt(0) == ',') {
+                                        // if (table[i][j].charAt(0) == ',' && table[i][j].length() > 1) {
+                                        table[i][j] = table[i][j].substring(1);
+                                        table[i][j] = table[i][j].trim();                                        
+                                    } 
+                                    System.out.print(table[i][j] + "\t");
+                                }
+                                System.out.println();
                             }
-                            System.out.println();
                         }
                     } catch (IOException e) {
                         System.out.println("Hadarg you, Srishti! \n ...And you too, IMDb!");
@@ -327,7 +335,7 @@ public class Interface extends World
     // quickSortLS(ids, v, 0, v.length - 1);
     // return v;
     // }
-    
+
     /**
      * A replacement split method. 
      * This one uses whatever divider,
